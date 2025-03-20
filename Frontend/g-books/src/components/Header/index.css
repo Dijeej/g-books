@@ -1,0 +1,24 @@
+.main-header {
+    width: 100%;
+    padding: 2rem;
+    background-color: var(--color-foreground);
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: center;
+    
+    .header-logo {
+
+        .header-title {
+            text-decoration: none;
+            font-size: 3.5rem;
+            color: var(--color-text-c); 
+
+            .header-icon {
+                font-size: 2.5rem;
+            }
+        }
+        
+    }
+
+}

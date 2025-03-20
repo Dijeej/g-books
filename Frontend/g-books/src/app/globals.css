@@ -1,0 +1,75 @@
+:root {
+  /*Cores da pagina*/
+  --color-background: #23231A;
+  --color-foreground: #322F20;
+  --color-text-a: #e6e6e6;
+  --color-text-b: #6A5837;
+  --color-text-c: #FE5F00;
+  
+  
+  /* Cor dos botoes */
+  --color-default: #988F2A;
+  --color-confirm: #4CAF50;
+  --color-delete: #ff0000;
+  --color-edit: #0b15a3;
+  
+  /*Cor dos avisos*/
+  --color-danger: #ff0000;
+  --color-warning: #FF9800;
+  --color-success: #4CAF50;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text-a);
+}
+
+/*Classe de Botoes*/
+.btn {
+  border: 0.15rem solid transparent;
+  font-weight: bold;
+  background-color: transparent;
+  padding: .5rem 1rem;
+  transition: all ease-in-out .2s;
+
+  &.btn-default {
+    color: var(--color-default);
+    border-color: var(--color-default)
+  }
+  &.btn-confirm {
+    border-color: var(--color-confirm);
+    color: var(--color-confirm);
+  }
+  &.btn-delete {
+    border-color: var(--color-delete);
+    color: var(--color-delete);
+  }
+  &.btn-edit {
+    border-color: var(--color-edit);
+    color: var(--color-edit);
+  }
+}
+
+.btn:hover {
+  color: var(--color-text-a);
+  cursor: pointer;
+
+  &.btn-default {
+    background-color: var(--color-default);
+  }
+  &.btn-confirm {
+    background-color: var(--color-confirm);
+  }
+  &.btn-delete {
+    background-color: var(--color-delete);
+  }
+  &.btn-edit {
+    background-color: var(--color-edit);
+  }
+}
