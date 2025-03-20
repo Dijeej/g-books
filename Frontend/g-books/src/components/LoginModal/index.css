@@ -55,8 +55,10 @@
             align-content: space-around;
             gap: .3rem;
             
+            
             .modal-form-input {
                 padding: .5rem 1rem;
+                font-family: 'old-standard-tt';
             }
         }
     }

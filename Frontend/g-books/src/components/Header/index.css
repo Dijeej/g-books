@@ -21,4 +21,22 @@
         
     }
 
+    .modal-login-btn {
+        display: flex;
+        flex-direction: row;
+        gap: .3rem;
+        justify-content: space-between;
+        align-items:end;
+        font-size: 1.5rem;
+        color: var(--color-text-c);
+        
+        .modal-open-text {
+            font-family: 'old-standard-tt';
+            font-size: 1rem;
+            font-weight: 400;
+        }
+    }
+    .modal-login-btn:hover { 
+        color: var(--color-text-a);
+    }
 }
